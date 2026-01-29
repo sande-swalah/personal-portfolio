@@ -28,10 +28,10 @@ function SearchBar({ value, onChange }) {
             aria-label="Clear search"
             title="Clear search"
           >
-            ✕
+            remove
           </button>
         )}
-        <span className="searchIcon">🔍</span>
+        
       </div>
     </div>
   );

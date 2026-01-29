@@ -6,7 +6,7 @@ function ProjectCard({ project }) {
     description,
     category,
     image,
-    link,
+
   } = project;
 
   return (
@@ -22,14 +22,7 @@ function ProjectCard({ project }) {
         <h3 className="cardTitle">{title}</h3>
         <p className="description">{description}</p>
         <span className="category">{category}</span>
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          View Project
-        </a>
+      
       </div>
     </div>
   );
